@@ -7,10 +7,10 @@ import { useRouter } from 'next/router';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#673ab7', // deepPurple
+      main: '#FFFF00', // deepPurple
     },
     secondary: {
-      main: '#4caf50', // green
+      main: '#0000FF', // green
     },
     mode: 'dark',
   },

@@ -7,10 +7,10 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#800080', // deepPurple
+      main: '#FFFF00', // deepPurple
     },
     secondary: {
-      main: '#4caf50', // green
+      main: '#0000FF', // green
     },
     background: {
       default: '#f5f5f5',

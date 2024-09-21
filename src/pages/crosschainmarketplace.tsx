@@ -9,10 +9,10 @@ import { ethers } from 'ethers';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#800080', // purple
+      main: '#FFFF00', // purple
     },
     secondary: {
-      main: '#4caf50', // green
+      main: '#0000FF', // green
     },
     background: {
       default: '#f5f5f5',
