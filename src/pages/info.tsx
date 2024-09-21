@@ -81,10 +81,10 @@ const Info: React.FC = () => {
             </Toolbar>
           </AppBar>
           <Box p={2}>
-            {buildLinkCard('Docs', 'Find in-depth information about IDSafe features and API.', 'https://nextjs.org/docs')}
-            {buildLinkCard('Learn', 'Learn how to protect your privacy with IDSafe in an interactive course with quizzes!', 'https://nextjs.org/learn')}
-            {buildLinkCard('Templates', 'Explore starter templates for IDSafe connections.', 'https://vercel.com/templates')}
-            {buildLinkCard('Deploy', 'Instantly deploy your Application with IDSafe SDK.', 'https://vercel.com/new')}
+            {buildLinkCard('Docs', 'Find in-depth information about RefugeID features and API.', 'https://nextjs.org/docs')}
+            {buildLinkCard('Learn', 'Learn how to protect your privacy with RefugeID in an interactive course with quizzes!', 'https://nextjs.org/learn')}
+            {buildLinkCard('Templates', 'Explore starter templates for RefugeID connections.', 'https://vercel.com/templates')}
+            {buildLinkCard('Deploy', 'Instantly deploy your Application with RefugeID SDK.', 'https://vercel.com/new')}
             <Typography variant="h5" gutterBottom>
               Other Information
             </Typography>

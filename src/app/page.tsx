@@ -72,7 +72,7 @@ export default function Home() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
-              IDSafe
+              RefugeID
             </Typography>
           </Toolbar>
         </AppBar>
@@ -131,9 +131,9 @@ export default function Home() {
 
               <Grid container spacing={3}>
                 {[
-                  { title: 'Learn', description: 'Learn how to protect your privacy with IDSafe in an interactive course with quizzes!', url: 'https://idsafe.vercel.app/learn' },
-                  { title: 'Deploy', description: 'Integrate IDSafe SDK for your app connections', url: 'https://github.com/Hackathonzx/IDSafe-SDK' },
-                  { title: 'Socials', description: 'Connect with the IDSafe community.', url: 'https://discord.gg/uA5bW2pH' },
+                  { title: 'Learn', description: 'Learn how to protect your privacy with RefugeID in an interactive course with quizzes!', url: 'https://RefugeID.vercel.app/learn' },
+                  { title: 'Deploy', description: 'Integrate RefugeID SDK for your app connections', url: 'https://github.com/Hackathonzx/RefugeID-SDK' },
+                  { title: 'Socials', description: 'Connect with the RefugeID community.', url: 'https://discord.gg/uA5bW2pH' },
                 ].map((link, index) => (
                   <Grid item xs={12} sm={6} md={4} key={index}>
                     <Card>
@@ -172,7 +172,7 @@ export default function Home() {
         <Box component="footer" sx={{ py: 3, px: 2, mt: 'auto', backgroundColor: theme.palette.grey[200] }}>
           <Container maxWidth="sm">
             <Typography variant="body2" color="text.secondary" align="center">
-              © {new Date().getFullYear()} IDSafe. All rights reserved.
+              © {new Date().getFullYear()} RefugeID. All rights reserved.
             </Typography>
           </Container>
         </Box>
@@ -305,7 +305,7 @@ export default function Home() {
 //             <MenuIcon />
 //           </IconButton>
 //           <Typography variant="h6" style={{ flexGrow: 1 }}>
-//             IDSafe
+//             RefugeID
 //           </Typography>
 //         </Toolbar>
 //       </AppBar>
@@ -358,10 +358,10 @@ export default function Home() {
 //           </Button>
 //           <div style={{ marginTop: '20px' }}>
 //             {[
-//               { title: 'Learn', description: 'Learn how to protect your privacy with IDSafe in an interactive course with quizzes!', url: 'https://9000-idx-idsafe-web-1726061350597.cluster-blu4edcrfnajktuztkjzgyxzek.cloudworkstations.dev/learn' },
-//               { title: 'Deploy', description: 'Integrate IDSafe SDK for your app connections', url: 'https://github.com/Hackathonzx/IDSafe-SDK' },
-//               { title: 'Socials', description: ' Connect with the IDSafe community.', url: 'https://discord.gg/uA5bW2pH' },
-//               // { title: 'Deploy', description: 'Instantly deploy your Application with IDSafe SDK.', url: 'https://vercel.com/new' },
+//               { title: 'Learn', description: 'Learn how to protect your privacy with RefugeID in an interactive course with quizzes!', url: 'https://9000-idx-RefugeID-web-1726061350597.cluster-blu4edcrfnajktuztkjzgyxzek.cloudworkstations.dev/learn' },
+//               { title: 'Deploy', description: 'Integrate RefugeID SDK for your app connections', url: 'https://github.com/Hackathonzx/RefugeID-SDK' },
+//               { title: 'Socials', description: ' Connect with the RefugeID community.', url: 'https://discord.gg/uA5bW2pH' },
+//               // { title: 'Deploy', description: 'Instantly deploy your Application with RefugeID SDK.', url: 'https://vercel.com/new' },
 //             ].map((link, index) => (
 //               <Card key={index} style={{ margin: '10px 0' }}>
 //                 <CardContent>
@@ -382,7 +382,7 @@ export default function Home() {
 //       </main>
 //       <footer style={{ textAlign: 'center', padding: '20px 0' }}>
 //         <Typography variant="body2" color="textSecondary">
-//           © 2024 IDSafe
+//           © 2024 RefugeID
 //         </Typography>
 //       </footer>
 //     </div>
@@ -474,7 +474,7 @@ export default function Home() {
 //             <MenuIcon />
 //           </IconButton>
 //           <Typography variant="h6" style={{ flexGrow: 1 }}>
-//             IDSafe
+//             RefugeID
 //           </Typography>
 //         </Toolbar>
 //       </AppBar>
@@ -506,10 +506,10 @@ export default function Home() {
 //           </Button>
 //           <div style={{ marginTop: '20px' }}>
 //             {[
-//               { title: 'Docs', description: 'Find in-depth information about IDSafe features and API.', url: 'https://nextjs.org/docs' },
-//               { title: 'Learn', description: 'Learn how to protect your privacy with IDSafe in an interactive course with quizzes!', url: 'https://nextjs.org/learn' },
-//               { title: 'Templates', description: 'Explore starter templates for IDSafe connections.', url: 'https://vercel.com/templates' },
-//               { title: 'Deploy', description: 'Instantly deploy your Application with IDSafe SDK.', url: 'https://vercel.com/new' },
+//               { title: 'Docs', description: 'Find in-depth information about RefugeID features and API.', url: 'https://nextjs.org/docs' },
+//               { title: 'Learn', description: 'Learn how to protect your privacy with RefugeID in an interactive course with quizzes!', url: 'https://nextjs.org/learn' },
+//               { title: 'Templates', description: 'Explore starter templates for RefugeID connections.', url: 'https://vercel.com/templates' },
+//               { title: 'Deploy', description: 'Instantly deploy your Application with RefugeID SDK.', url: 'https://vercel.com/new' },
 //             ].map((link, index) => (
 //               <Card key={index} style={{ margin: '10px 0' }}>
 //                 <CardContent>
@@ -530,7 +530,7 @@ export default function Home() {
 //       </main>
 //       <footer style={{ textAlign: 'center', padding: '20px 0' }}>
 //         <Typography variant="body2" color="textSecondary">
-//           © 2024 IDSafe
+//           © 2024 RefugeID
 //         </Typography>
 //       </footer>
 //     </div>
@@ -602,7 +602,7 @@ export default function Home() {
 //             <MenuIcon />
 //           </IconButton>
 //           <Typography variant="h6" style={{ flexGrow: 1 }}>
-//             IDSafe
+//             RefugeID
 //           </Typography>
 //         </Toolbar>
 //       </AppBar>
@@ -634,10 +634,10 @@ export default function Home() {
 //           </Button>
 //           <div style={{ marginTop: '20px' }}>
 //             {[
-//               { title: 'Docs', description: 'Find in-depth information about IDSafe features and API.', url: 'https://nextjs.org/docs' },
-//               { title: 'Learn', description: 'Learn how to protect your privacy with IDSafe in an interactive course with quizzes!', url: 'https://nextjs.org/learn' },
-//               { title: 'Templates', description: 'Explore starter templates for IDSafe connections.', url: 'https://vercel.com/templates' },
-//               { title: 'Deploy', description: 'Instantly deploy your Application with IDSafe SDK.', url: 'https://vercel.com/new' },
+//               { title: 'Docs', description: 'Find in-depth information about RefugeID features and API.', url: 'https://nextjs.org/docs' },
+//               { title: 'Learn', description: 'Learn how to protect your privacy with RefugeID in an interactive course with quizzes!', url: 'https://nextjs.org/learn' },
+//               { title: 'Templates', description: 'Explore starter templates for RefugeID connections.', url: 'https://vercel.com/templates' },
+//               { title: 'Deploy', description: 'Instantly deploy your Application with RefugeID SDK.', url: 'https://vercel.com/new' },
 //             ].map((link, index) => (
 //               <Card key={index} style={{ margin: '10px 0' }}>
 //                 <CardContent>
@@ -658,7 +658,7 @@ export default function Home() {
 //       </main>
 //       <footer style={{ textAlign: 'center', padding: '20px 0' }}>
 //         <Typography variant="body2" color="textSecondary">
-//           © 2024 IDSafe
+//           © 2024 RefugeID
 //         </Typography>
 //       </footer>
 //     </div>

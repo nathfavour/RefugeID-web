@@ -22,21 +22,21 @@ const categories = [
   {
     title: 'Getting Started',
     items: [
-      { icon: <School />, title: 'Introduction to IDSafe', description: 'Learn the basics of IDSafe and how it works.' },
-      { icon: <Code />, title: 'Setup and Installation', description: 'Step-by-step guide to set up and install IDSafe.' },
+      { icon: <School />, title: 'Introduction to RefugeID', description: 'Learn the basics of RefugeID and how it works.' },
+      { icon: <Code />, title: 'Setup and Installation', description: 'Step-by-step guide to set up and install RefugeID.' },
     ],
   },
   {
     title: 'Advanced Topics',
     items: [
-      { icon: <Security />, title: 'Security Best Practices', description: 'Learn how to secure your IDSafe implementation.' },
-      { icon: <WalletIcon />, title: 'Integrating with Wallets', description: 'How to integrate IDSafe with various crypto wallets.' },
+      { icon: <Security />, title: 'Security Best Practices', description: 'Learn how to secure your RefugeID implementation.' },
+      { icon: <WalletIcon />, title: 'Integrating with Wallets', description: 'How to integrate RefugeID with various crypto wallets.' },
     ],
   },
   {
     title: 'Resources',
     items: [
-      { icon: <Info />, title: 'Documentation', description: 'Find in-depth information about IDSafe features and API.' },
+      { icon: <Info />, title: 'Documentation', description: 'Find in-depth information about RefugeID features and API.' },
       { icon: <Code />, title: 'Source Code', description: 'View the source code on GitHub.' },
     ],
   },

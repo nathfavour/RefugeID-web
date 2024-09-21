@@ -177,7 +177,7 @@ const WalletSettings: React.FC = () => {
         onChange={(e) => setExpandAssets(e.target.checked)}
       />
       <ListItemButton onClick={() => { /* Navigate to FAQ page */ }}>
-        <ListItemText primary="IDSafe FAQ" />
+        <ListItemText primary="RefugeID FAQ" />
       </ListItemButton>
     </List>
   );
