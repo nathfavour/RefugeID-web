@@ -1,0 +1,44 @@
+{
+  "name": "out",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^6.0.2",
+    "@reown/appkit-adapter-ethers": "^1.0.1",
+    "@reown/appkit-adapter-wagmi": "^1.0.1",
+    "@reown/walletkit": "^1.0.0",
+    "@tanstack/react-query": "^5.56.2",
+    "@walletconnect/core": "^2.16.1",
+    "@walletconnect/utils": "^2.16.1",
+    "@walletconnect/web3wallet": "^1.15.1",
+    "@web3-react/core": "^8.2.3",
+    "@web3-react/injected-connector": "^6.0.7",
+    "ethers": "^6.13.2",
+    "eventemitter3": "^5.0.1",
+    "next": "^14.2.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.21.9",
+    "wagmi": "^2.12.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.9",
+    "hardhat": "^2.22.11",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

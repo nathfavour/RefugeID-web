@@ -1,0 +1,32 @@
+
+            <ListItem 
+              button key={item.text} 
+              component={Link} 
+              href={item.path}
+              onClick={() => handleNavigation(index, item.path)}
+              sx={{
+                '&:hover': {
+                  backgroundColor: currentTheme.palette.action.hover,
+                },
+              }}
+            >
+
+
+
+
+
+
+
+
+
+
+
+              <ListItemIcon>{item.icon}</ListItemIcon>
+              <ListItemText 
+                primary={
+                  <Typography variant="body1">
+                    {item.text}
+                  </Typography>
+                } 
+              />
+            </ListItem>
